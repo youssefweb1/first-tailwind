@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-hero1 {
+    @apply bg-fsfor text-slate-900 hover:text-white px-8 py-3 rounded-md hover:bg-blackme  transition-all duration-300;
+  }
+  .btn-hero2 {
+    @apply  bg-white text-blackme px-8 py-3 rounded-md hover:bg-blackme hover:text-white transition-all duration-300;
+  }
+  .box-serv
+  {
+    @apply flex flex-col space-y-3 w-full h-auto ;
+  }
+  
+  .animate-moveLogos
+  {
+    @apply flex overflow-hidden mt-7 content-start items-center w-full whitespace-nowrap gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 ;
+  }
+
+
+
+  }
